@@ -1,0 +1,14 @@
+
+Ext.define('ExtSix1.view.item.TreePanel', {
+  extend: 'Ext.tree.Panel',
+  id: 'itemList',
+  alias: 'widget.itemList',
+  title: 'Items',
+  store: 'TreeStore',
+  srets: '',
+  frame: true,
+  border: false,
+  rootVisible: false,
+  displayField: 'name',
+  minWidth: 150
+});
